@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Cechy jakości oprogramowania według normy ISO/IEC 25010",
+    "answers": [
+      "bezpieczeństwo, niezawodność, wydajność",
+      "niezawodność, dostępność, enkapsulacja",
+      "dostępność źródeł, dojrzałość, adaptowalność",
+      "bezpieczeństwo, podatność, uwierzytelnienie"
+    ],
+    "valid": "bezpieczeństwo, niezawodność, wydajność"
+  },
+  {
+    "question": "Service Level Agreement",
+    "answers": [
+      "określa czas usunięcia awarii",
+      "jest ustandaryzowane normą ISO",
+      "określa czas pomiędzy commitem a wdrożeniem poprawki",
+      "nie jest stosowane w usługach publicznych chmur (GCP, AWS, itp.)"
+    ],
+    "valid": "określa czas usunięcia awarii"
+  },
+  {
+    "question": "Obserwowalność",
+    "answers": [
+      "miara jak dobrze jesteśmy w stanie poznać stan systemu operacyjnego",
+      "miara jak dobrze jesteśmy w stanie poznać stan kontenera",
+      "miara jak dobrze jesteśmy w stanie poznać stan maszyny wirtualnej",
+      "wszystkie odpowiedzi są poprawne"
+    ],
+    "valid": "wszystkie odpowiedzi są poprawne"
+  },
+  {
+    "question": "DevOps",
+    "answers": [
+      "wymaga istnienia jednostki organizacyjnej zajmującej się rozwojem i utrzymaniem",
+      "obniża pracochłonność zapewnienia jakości oprogramowania (testów)",
+      "wymaga istnienia 3 jednostek organizacyjnych : rozwój, DevOps i utrzymanie",
+      "promuje zasady przepływu i sprzężenia zwrotnego"
+    ],
+    "valid": "promuje zasady przepływu i sprzężenia zwrotnego"
+  },
+  {
+    "question": "Podatność bezpieczeństwa systemu IT",
+    "answers": [
+      "co do zasady nie może być usunięta bo wynika z błędnych założeń architektonicznych",
+      "z podatnością mamy do czynienia w przypadku ataku hakerskiego",
+      "system, w którym występują podatności, powinen zostać wyłączony z eksploatacji do momentu ich usunięcia",
+      "powinna być zwalczana na etapie tworzenia, wdrażania i eksploatacje"
+    ],
+    "valid": "powinna być zwalczana na etapie tworzenia, wdrażania i eksploatacje"
+  },
+  {
+    "question": "Podatność log4j JNDI (12.2021)",
+    "answers": [
+      "jest atakiem typu SSRF",
+      "jest atakiem typu XSS",
+      "jest atakiem typu CSRF",
+      "jest atakiem typu CQRS"
+    ],
+    "valid": "jest atakiem typu SSRF"
+  },
+  {
+    "question": "OWASP Application Security Verification Standard",
+    "answers": [
+      "składa się z poziomów L1,L2,L3, do których są przyporządkowane rozdzielne zbiory wymaga",
+      "jest dedykowany dla aplikacji przeglądarkowych",
+      "jest certyfikowany przez National Institute of Standards and Technology (NIST)",
+      "rekomenduje wymagania dla aplikacji dostępnych przez usługi http/https"
+    ],
+    "valid": "rekomenduje wymagania dla aplikacji dostępnych przez usługi http/https"
+  },
+  {
+    "question": "Zgodnie z OWASP ASVS",
+    "answers": [
+      "system powinien wymagać regularnych zmian haseł",
+      "system powinien uniemożliwiać przeklejanie haseł przez schowek",
+      "hasła nie powinny być zmieniane samodzielnie przez użytkowników",
+      "hasła nie powinny być przechowywane w plikach źródłowych"
+    ],
+    "valid": "hasła nie powinny być przechowywane w plikach źródłowych"
+  },
+  {
+    "question": "OWASP ASVS zaleca",
+    "answers": [
+      "zbieranie wszelkich możliwych informacji do logów i utrwalanie do celów przeciwdziałania atakom",
+      "bezterminową dostępność logów",
+      "logowanie błędnie wpisanych haseł przez użytkowników",
+      "zabezpieczenie przechowywanych logów i ochronę ich tak jak danych pierwotnych aplikacji"
+    ],
+    "valid": "zabezpieczenie przechowywanych logów i ochronę ich tak jak danych pierwotnych aplikacji"
+  },
+  {
+    "question": "Bezpieczeństwo API według OWASP ASVS wymaga",
+    "answers": [
+      "autoryzacji użytkownika do wykonania odpowiednich metod http (GET, POST,etc.)",
+      "wykorzystywanie tokenów API przekazywanych przez URL",
+      "kontroli integralnośc nagłówka i treści requestu przez sumę kontrolną dla aplikacji na każdym poziomie bezpieczeństwa",
+      "stosowania API RESTfull zamiast web serwisów SOAP"
+    ],
+    "valid": "autoryzacji użytkownika do wykonania odpowiednich metod http (GET, POST,etc.)"
+  },
+  {
+    "question": "Na jakie atrybuty jakościowe oprogramowania wpływa dług techniczny?",
+    "answers": [
+      "Utrzymywalność (Maintainability) i Ewoluowalność (Evolvability)",
+      "Użyteczność (Usability) i Ewoluowalność (Evolvability)",
+      "Niezawodność (Reliability) i Użyteczność (Usability)",
+      "Niezawodność (Reliability) i Ewoluowalność (Evolvability)"
+    ],
+    "valid": "Utrzymywalność (Maintainability) i Ewoluowalność (Evolvability)"
+  },
+  {
+    "question": "Które z poniższych nie jest długiem technicznym?",
+    "answers": [
+      "Używanie starych technologii które aktualnie nie są popularne na rynku",
+      "Niewystarczająca automatyzacja testów przez którą niezbędne są ręczne testy",
+      "Nadmiernie skomplikowane klasy powstałe w trakcie ewolucji systemu przez które kod jest nieczytelny",
+      "Użycie w projekcie modułu który nie spełnia wymagań, zmiana na inny jest jednak kosztowna"
+    ],
+    "valid": "Używanie starych technologii które aktualnie nie są popularne na rynku"
+  },
+  {
+    "question": "Który z poniższych rodzajów długu technicznego nie istnieje zgodnie z kwadrantami Fowlera?",
+    "answers": [
+      "Przemyślany i Lekkomyślny",
+      "Nieświadomy i Przemyślany",
+      "Świadomy i Przemyślany",
+      "Nieświadomy i Lekkomyślny"
+    ],
+    "valid": "Przemyślany i Lekkomyślny"
+  },
+  {
+    "question": "Podstawową jednostką opisującą dług techniczny jest",
+    "answers": [
+      "Wystąpienie długu technicznego (technical debt item)",
+      "Koszt długu technicznego (technical debt cost)",
+      "Code smell",
+      "Obciążenie długiem technicznym (technical debt liability)"
+    ],
+    "valid": "Wystąpienie długu technicznego (technical debt item)"
+  },
+  {
+    "question": "Problemem z narzędziami automatycznie wykrywającymi dług techniczny jest",
+    "answers": [
+      "Nie istnieje jednoznaczny i obiektywny zestaw zasad umożliwiający wykrycie długu technicznego",
+      "Żadne z nich nie uwzględnienia historii zmian w projekcie",
+      "Nie wykrywają problemów z zależnościami między modułami",
+      "Nie wskazują konkretnych fragmentów kodu wymagających poprawek"
+    ],
+    "valid": "Nie istnieje jednoznaczny i obiektywny zestaw zasad umożliwiający wykrycie długu technicznego"
+  },
+  {
+    "question": "Które zdanie najlepiej opisuje cyfrową transformację",
+    "answers": [
+      "Elektronizacja procesów biznesowych w organizacji",
+      "Budowa stabilnej, sporadycznie modyfikowanej platformy cyfrowej",
+      "Ciągły rozwój i usprawnianie oferty cyfrowej w organizacji poprzez częste wdrażania usprawnień i testowanie ich na klientach.",
+      "Budowanie platformy cyfrowej wyłącznie z niezależnych integrowanych ze sobą komponentów"
+    ],
+    "valid": "Ciągły rozwój i usprawnianie oferty cyfrowej w organizacji poprzez częste wdrażania usprawnień i testowanie ich na klientach."
+  },
+  {
+    "question": "Które z wymienionych „cegiełek” cyfrowej transformacji tworzą kompletną platformę informatyczną w organizacji",
+    "answers": [
+      "Kręgosłup operacyjny, platforma cyfrowa, ramy odpowiedzialności",
+      "Kręgosłup operacyjny, platforma cyfrowa, zewnętrzna platforma programistyczna, ramy odpowiedzialności, współdzielona wiedza o potrzebach klientów",
+      "Kręgosłup operacyjny, platforma cyfrowa, zewnętrzna platforma programistyczna",
+      "Kręgosłup operacyjny, platforma cyfrowa"
+    ],
+    "valid": "Kręgosłup operacyjny, platforma cyfrowa, zewnętrzna platforma programistyczna"
+  },
+  {
+    "question": "Która/które „cegiełki” cyfrowej transformacji obejmują komponenty realizujące funkcje oferty cyfrowej wytwarzanej wewnątrz organizacji",
+    "answers": [
+      "Platforma cyfrowa",
+      "Kręgosłup operacyjny, platforma cyfrowa",
+      "Kręgosłup operacyjny, platforma cyfrowa, zewnętrzna platforma programistyczna",
+      "Zewnętrzna platforma programistyczna"
+    ],
+    "valid": "Kręgosłup operacyjny, platforma cyfrowa"
+  },
+  {
+    "question": "Czy dobrą praktyką (w odniesieniu do cyfrowej transformacji) jest rozbijanie monolitów na komponenty?",
+    "answers": [
+      "Tak zawsze bez wyjątków",
+      "Tak ale tylko wtedy gdy zidentyfikujemy wewnątrz monolitu komponenty mogą zostać ponownie wykorzystane",
+      "Nie ponieważ nie jest to opłacalne i lepiej zduplikować komponent",
+      "Nie w żadnym wypadku"
+    ],
+    "valid": "Tak ale tylko wtedy gdy zidentyfikujemy wewnątrz monolitu komponenty mogą zostać ponownie wykorzystane"
+  },
+  {
+    "question": "W jaki sposób (w odniesieniu do cyfrowej transformacji) dążymy do budowania efektywnej oferty cyfrowej?",
+    "answers": [
+      "Wyłącznie na bazie doświadczeń pracowników w organizacji",
+      "Poprzez ciągłe testowanie, usprawniania i mierzenie zadowolenia klienta",
+      "Poprzez budowanie dojrzałych produktów i dopiero po detalicznym wytestowaniu oferowanie ich klientom.",
+      "Żadne z powyższych"
+    ],
+    "valid": "Poprzez ciągłe testowanie, usprawniania i mierzenie zadowolenia klienta"
+  },
+  {
+    "question": "Korzystanie z usług świadczonych przez podmiot zewnętrzny pozwala na",
+    "answers": [
+      "Zgromadzenie zasobów technicznych i wiedzy, dzięki której firma może efektywniej realizować swoje zadania",
+      "Pozwala na pozbycie się zasobów i przeniesienie ryzyk, na zarządzaniu którymi usługobiorca zna się gorzej niż usługodawca",
+      "Pozwala na pozbycie się zasobów i przeniesienie ryzyk, na zarządzaniu którymi usługobiorca zna się lepiej niż usługodawca",
+      "Żadne z powyższych"
+    ],
+    "valid": "Pozwala na pozbycie się zasobów i przeniesienie ryzyk, na zarządzaniu którymi usługobiorca zna się gorzej niż usługodawca"
+  },
+  {
+    "question": "Usługi IT",
+    "answers": [
+      "Mogą być łączone celem świadczenia usług bardziej złożonych",
+      "W praktyce zarządzania ITSM są świadczone tylko przez systemy i jednostki organizacyjne danej firmy/organizacji",
+      "Nie mogą być łączone (komponowane) wtedy, gdy są dostarczane przez podmioty zewnętrzne",
+      "Żadne z powyższych"
+    ],
+    "valid": "Mogą być łączone celem świadczenia usług bardziej złożonych"
+  },
+  {
+    "question": "Celem zarządzania incydentem jest",
+    "answers": [
+      "Utrzymanie ciągłości działania systemu",
+      "Utrzymanie niezawodności systemu na wymaganym poziomie",
+      "Przywrócenie działania usługi tak szybko jak to możliwe",
+      "Zapobieganie występowaniu awarii"
+    ],
+    "valid": "Przywrócenie działania usługi tak szybko jak to możliwe"
+  },
+  {
+    "question": "Które ze zdań jest prawdziwe (w ITSM)",
+    "answers": [
+      "Problem i incydent to pojęcia tożsame",
+      "Incydent to istotne zdarzenie zakłócające świadczenie usług",
+      "Problem to zbiór zdarzeń wskazujących na istotne zakłócenie usług IT",
+      "Problem, to przyczyna incydentu lub zbioru incydentów"
+    ],
+    "valid": "Problem, to przyczyna incydentu lub zbioru incydentów"
+  },
+  {
+    "question": "Obsługa incydentów przebiega wg schematu",
+    "answers": [
+      "Zgłoszenie -> ocena, ustalenie priorytetu - > rozwiązanie obejście -> zamknięcie incydentu",
+      "Zgłoszenie -> rozwiązanie incydentu -> ocena -->zamknięcie incydentu",
+      "Zgłoszenie - > rozwiązanie incydentu -> zamknięcie incydentu",
+      "Zgłoszenie -> ocena, ustalenie priorytetu - > rozwiązanie incydentu -> zamknięcie incydentu"
+    ],
+    "valid": "Zgłoszenie -> ocena, ustalenie priorytetu - > rozwiązanie incydentu -> zamknięcie incydentu"
+  },
+  {
+    "question": "Priorytet problemu ustala się",
+    "answers": [
+      "Na podstawie wskazań użytkowników lub ich kierownictwa",
+      "Na podstawie oceny wpływu biznesowego incydentu",
+      "Na podstawie eksperckiej oceny przyjmującego zgłoszenie problemu",
+      "Żadne z powyższych"
+    ],
+    "valid": "Na podstawie oceny wpływu biznesowego incydentu"
+  },
+  {
+    "question": "Zamknięcie problemu",
+    "answers": [
+      "Jest połączone z oceną jego wpływu na biznes",
+      "Nie wymaga zgody korzystających z usług IT dotkniętych problemem",
+      "Jest połączone z zamknięciem związanych z nim incydentów",
+      "Następuje po skierowaniu go do rozwiązania przez wyznaczony do tego zespół"
+    ],
+    "valid": "Jest połączone z zamknięciem związanych z nim incydentów"
+  },
+  {
+    "question": "Zasadnicze korzyści z warstwowego (ang. tiers) systemu obsługi zgłoszeń to",
+    "answers": [
+      "Szybszy transfer kompetencji między osobami / podmiotami realizującymi poszczególne warstwy",
+      "Brak oddziaływania między warstwami obsługi zgłoszeń",
+      "Zdjęcie z osób o wysokich kompetencjach technicznych obsługi bieżącej incydentów",
+      "Lepsza kontrola nad procesem zarządzania problemem"
+    ],
+    "valid": "Zdjęcie z osób o wysokich kompetencjach technicznych obsługi bieżącej incydentów"
+  },
+  {
+    "question": "Zarządzanie wydaniami ma na celu",
+    "answers": [
+      "Zapewnienie, że zmiany wprowadzane w usługach zostały dokładnie zweryfikowane",
+      "Nie dopuszczanie do realizacji zmian, które nie mają uzasadnienie biznesowego",
+      "Opóźnienie wprowadzania zmian aby nie zakłócać bieżącego działania usług",
+      "Czytelne numerowanie / oznaczanie kolejnych wersji usług"
+    ],
+    "valid": "Zapewnienie, że zmiany wprowadzane w usługach zostały dokładnie zweryfikowane"
+  },
+  {
+    "question": "Umowa SLA nie określa",
+    "answers": [
+      "Wymaganego poziomu usług",
+      "Godziny świadczenia usług i okna serwisowe",
+      "Procedur powiadamiania i eskalacji",
+      "Procedury zawierania umów z usługodawcami"
+    ],
+    "valid": "Procedury zawierania umów z usługodawcami"
+  }
+]

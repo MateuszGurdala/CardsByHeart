@@ -1,0 +1,24 @@
+<div class="window">
+  <div class="main-container">
+    <h1 class="question">{{ currentCard.question }}</h1>
+    <ul class="answers-list">
+      <div class="answer-container" *ngFor="let answer of currentCard.answers; let i = index" [ngClass]=" {
+            'valid': i === validAnswer, 
+            'invalid': i !== validAnswer,
+            'transparent': !chooseAnswer}">
+        <li class="answer" [ngClass]="{
+          'selectable': !chooseAnswer, 
+          'selected': i === selectedAnswer}" (click)="click(i)">
+          {{ answer }}
+        </li>
+      </div>
+    </ul>
+    <div class="button-container">
+      <div class="statistics-container">
+        <h3>{{ totalAnswers }}/{{ cardCount }}</h3>
+        <h3>{{validPercentage}}%</h3>
+      </div>
+      <button *ngIf="chooseAnswer" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>

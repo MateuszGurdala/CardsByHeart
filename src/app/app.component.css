@@ -1,0 +1,144 @@
+.window {
+    width: 100vw;
+    height: 100vh;
+    background-image: var(--main-gradient);
+    display: flex;
+}
+
+.main-container {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+}
+
+.question {
+    font-size: var(--base-size);
+    font-weight: 700;
+    background-image: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.answers-list {
+    list-style: none;
+    margin-top: 3vmin;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    font-size: calc(var(--base-size) - 2vmin);
+    font-weight: 500;
+    color: var(--text);
+    padding: 1vmin 2vmin;
+
+}
+
+.button-container {
+    width: 100%;
+    height: 8vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button {
+    color: var(--accent);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: calc(var(--base-size) - 1vmin);
+    margin: auto;
+}
+
+.statistics-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vmin;
+    margin: auto;
+}
+
+.statistics-container h3 {
+    font-size: calc(var(--base-size) - 2vmin);
+    font-weight: 700;
+    background-image: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+    color: var(--accent-tint);
+}
+
+@media (max-width: 1440px) {
+    :root {
+        --base-size: 6vmin;
+    }
+
+    .main-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 425px) {
+    .question {
+        font-size: 35px;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .answers-list {
+        margin-top: 5vmin;
+    }
+
+    .answer {
+        font-size: 25px;
+        padding: 3vmin 2vmin;
+
+    }
+
+    .button-container {
+        height: 5vmin;
+    }
+
+    button {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .question {
+        font-size: 30px;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .answers-list {
+        margin-top: 8vmin;
+    }
+
+    .answer {
+        font-size: 20px;
+        padding: 3vmin 2vmin;
+
+    }
+
+    .button-container {
+        height: 10vmin;
+    }
+
+    button {
+        font-size: 35px;
+    }
+
+    .statistics-container h3 {
+        font-size: 25px;
+    }
+}

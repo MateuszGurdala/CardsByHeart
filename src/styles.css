@@ -1,0 +1,55 @@
+:root {
+    --accent-tint: #ffd43b;
+    --accent: #fab005;
+    --main-tint: #495057;
+    --main: #212529;
+
+    --valid: #40c057;
+    --invalid: #f03e3e;
+
+    --text: #dee2e6;
+
+    --main-gradient: linear-gradient(0deg, var(--main) 0%, var(--main-tint) 100%);
+    --accent-gradient: linear-gradient(0deg, var(--accent) 0%, var(--accent-tint) 100%);
+
+    --valid-gradient: linear-gradient(90deg, var(--valid) 0%, transparent 100%);
+    --invalid-gradient: linear-gradient(90deg, var(--invalid) 0%, transparent 100%);
+
+    --base-size: 5vmin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.selected {
+    color: var(--accent) !important;
+}
+
+.selectable {
+    color: var(--text);
+    cursor: pointer;
+}
+
+.selectable:hover {
+    color: var(--accent) !important;
+}
+
+.selectable:active {
+    color: var(--accent-tint) !important;
+}
+
+.valid {
+    background-image: var(--valid-gradient);
+}
+
+.invalid {
+    background-image: var(--invalid-gradient);
+}
+
+.transparent {
+    background-image: none !important;
+}
