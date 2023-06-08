@@ -47,7 +47,7 @@
       "system, w którym występują podatności, powinen zostać wyłączony z eksploatacji do momentu ich usunięcia",
       "powinna być zwalczana na etapie tworzenia, wdrażania i eksploatacje"
     ],
-    "valid": "powinna być zwalczana na etapie tworzenia, wdrażania i eksploatacj"
+    "valid": "powinna być zwalczana na etapie tworzenia, wdrażania i eksploatacje"
   },
   {
     "question": "Podatność log4j JNDI (12.2021)",
@@ -75,7 +75,7 @@
       "system powinien wymagać regularnych zmian haseł",
       "system powinien uniemożliwiać przeklejanie haseł przez schowek",
       "hasła nie powinny być zmieniane samodzielnie przez użytkowników",
-      "hasła nie powinny być przechowywane w plikach źródłowyche"
+      "hasła nie powinny być przechowywane w plikach źródłowych"
     ],
     "valid": "hasła nie powinny być przechowywane w plikach źródłowych"
   },
@@ -97,7 +97,7 @@
       "kontroli integralnośc nagłówka i treści requestu przez sumę kontrolną dla aplikacji na każdym poziomie bezpieczeństwa",
       "stosowania API RESTfull zamiast web serwisów SOAP"
     ],
-    "valid": "autoryzacji użytkownika do wykonania odpowiednich metod http (GET, POST,etc.)xx"
+    "valid": "autoryzacji użytkownika do wykonania odpowiednich metod http (GET, POST,etc.)"
   },
   {
     "question": "Na jakie atrybuty jakościowe oprogramowania wpływa dług techniczny?",

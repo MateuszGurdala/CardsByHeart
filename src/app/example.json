@@ -1,0 +1,11 @@
+[
+  {
+    "question": "What is the weather like today?",
+    "answers": [
+      "Could be better...",
+      "Fantastic! I'm going for a walk.",
+      "Nah"
+    ],
+    "valid": "Fantastic! I'm going for a walk."
+  }
+]
